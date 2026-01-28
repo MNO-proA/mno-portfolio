@@ -78,7 +78,7 @@ const projectsData = [
       "AI-powered research assistant that organizes, analyzes, and provides citation-aware insights from institutional research documents, supporting literature review and knowledge synthesis.",
     image: "/images/research.png",
     tag: ["All", "AI"],
-    gitUrl: "/",
+    gitUrl: "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/ff97c7df-91c3-4778-868b-876665e77aec/chat",
     previewUrl: "/",
   },
 ];
