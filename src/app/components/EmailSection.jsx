@@ -56,9 +56,9 @@ const EmailSection = () => {
           get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          {/* <Link href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
-          </Link>
+          </Link> */}
           <Link href="https://www.linkedin.com/in/michael-nana-ofosu-559682251/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>

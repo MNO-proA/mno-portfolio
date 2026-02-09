@@ -11,7 +11,7 @@ const projectsData = [
     description:
       "SmartQal is a SaaS platform that provides professional scheduling and booking solutions for service providers.",
     image: "/images/smartqal_thumbnail.png",
-    tag: ["All", "Web"],
+    tag: ["All", "App"],
     gitUrl: "https://smartqal.com/",
     previewUrl: "https://smartqal.com/",
   },
@@ -81,6 +81,26 @@ const projectsData = [
     gitUrl: "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/ff97c7df-91c3-4778-868b-876665e77aec/chat",
     previewUrl: "/",
   },
+    {
+    id: 8,
+    title: "Simple Inventory Scanner App",
+    description:
+      "QR codes in inventory management enable real-time tracking, enhanced accuracy, and increased efficiency by storing extensive product data (up to 4,296 characters) that can be scanned instantly with standard smartphones or tablets. If tailored for complexity, they replace manual data entry for,receiving, picking, and shipping, reducing errors and providing, visibility into, stock levels, across multiple locations.",
+    image: "/images/inventory-scanner.jfif",
+    tag: ["All", "App"],
+    gitUrl: "https://inventory-scanner-flame.vercel.app",
+    previewUrl: "/",
+  },
+      {
+    id: 9,
+    title: "Stochastic Inventory Control & Demand Forecasting Engine (ERP Inventory Control Unit)",
+    description:
+      "Stochastic inventory control module based on the (s, Q) policy, combining EOQ optimization with probabilistic reorder point calculation under uncertain demand. Extending the module with machine learning–based demand forecasting to dynamically update EOQ, safety stock, and reorder points based on predicted demand distributions.",
+    image: "/images/Leveraging-ERP-fo-EIM-01.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://www.linkedin.com/pulse/inventory-management-stochastic-demand-michael-nana-ofosu-venme/?trackingId=OAZs6AbQSE%2BXogbVd103kg%3D%3D",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -120,7 +140,12 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="AI"
-          isSelected={tag === "Mobile"}
+          isSelected={tag === "AI"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="App"
+          isSelected={tag === "App"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

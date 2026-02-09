@@ -14,6 +14,7 @@ const TAB_DATA = [
         <li>AI Developement</li>
         <li>Automations</li>
         <li>Data Anlytics and Business Intelligence</li>
+        <li>Data Science and Machine Learning</li>
         <li>Enterprise System Architecture</li>
       </ul>
     ),
@@ -24,7 +25,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>OpenLabs Ghana (NIIT)</li>
-        {/* <li>Coursera</li> */}
+        <li>Coursera</li>
+         <li>Alison</li>
       </ul>
     ),
   },
@@ -36,6 +38,12 @@ const TAB_DATA = [
         <li>Cloud Computing, Duke University</li>
         <li>Software Engineering Job Simulation, Quantium </li>
         <li>Data Analytics Job Simulation, Quantium </li>
+        <li>
+          Warehouse Management: Inventory, Stock and Supply Chains - Alison
+        </li>
+        <li>
+          Artificial Intelligence for Supply Chains and Logistics - Alison
+        </li>
       </ul>
     ),
   },
