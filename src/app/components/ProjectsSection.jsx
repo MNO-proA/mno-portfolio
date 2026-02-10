@@ -67,8 +67,8 @@ const projectsData = [
       "A self-hosted digital forms and submissions platform designed to replace paper-based intake with structured, verifiable data capture. Enables public users to submit standardized forms online, receive automated acknowledgements, and supports internal verification through simple, familiar interfaces connected to a central data system — improving accuracy, traceability, and processing efficiency for permits, certificates, and compliance-related workflows.",
     image: "/images/opn-form-thumbnail.png",
     tag: ["All", "Web"],
-    gitUrl: "https://nginx-vkoscc48884oow48c4k80kww.smartqal.com/home",
-    previewUrl: "https://nocodb-xsooo0g4csc4cgg8csgwcksw.smartqal.com",
+    gitUrl: "https://nocodb-xsooo0g4csc4cgg8csgwcksw.smartqal.com",
+    previewUrl: "https://nginx-vkoscc48884oow48c4k80kww.smartqal.com/home",
   },
 
   {
