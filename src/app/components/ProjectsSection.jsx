@@ -57,8 +57,10 @@ const projectsData = [
     tag: ["All", "AI"],
     gitUrl:
       "https://docs.google.com/spreadsheets/d/1H2ZWGuD6TEOLfTieGcpBWmbhwn1FQC5VGtAEDAxWESs/edit?usp=sharing",
+    // previewUrl:
+    //   "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/2b7fc8a8-2670-4569-9d8f-cd469dcbf206/chat",
     previewUrl:
-      "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/2b7fc8a8-2670-4569-9d8f-cd469dcbf206/chat",
+      "/",
   },
   {
     id: 6,
