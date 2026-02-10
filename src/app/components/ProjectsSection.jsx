@@ -79,7 +79,7 @@ const projectsData = [
     image: "/images/research.png",
     tag: ["All", "AI"],
     gitUrl: "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/ff97c7df-91c3-4778-868b-876665e77aec/chat",
-    previewUrl: "/",
+    previewUrl: "https://n8n-yoggkkssskoscowkc8gck48g.smartqal.com/webhook/ff97c7df-91c3-4778-868b-876665e77aec/chat",
   },
     {
     id: 8,
@@ -89,7 +89,7 @@ const projectsData = [
     image: "/images/inventory-scanner.jfif",
     tag: ["All", "App"],
     gitUrl: "https://inventory-scanner-flame.vercel.app",
-    previewUrl: "/",
+    previewUrl: "https://inventory-scanner-flame.vercel.app",
   },
       {
     id: 9,
@@ -99,7 +99,7 @@ const projectsData = [
     image: "/images/Leveraging-ERP-fo-EIM-01.webp",
     tag: ["All", "Web"],
     gitUrl: "https://www.linkedin.com/pulse/inventory-management-stochastic-demand-michael-nana-ofosu-venme/?trackingId=OAZs6AbQSE%2BXogbVd103kg%3D%3D",
-    previewUrl: "/",
+    previewUrl: "https://www.linkedin.com/pulse/inventory-management-stochastic-demand-michael-nana-ofosu-venme/?trackingId=OAZs6AbQSE%2BXogbVd103kg%3D%3D",
   },
 ];
 
